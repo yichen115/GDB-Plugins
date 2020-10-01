@@ -4,7 +4,7 @@
 
 想用peda：`echo "source ~/GDB-Plugins/peda/peda.py" > ~/.gdbinit`
 
-想用peda-heap：`echo "source ~/GDB-Plugins/peda/peda.py" > ~/.gdbinit`（感觉这个挺好用的，扩展了heap的功能，还保留了peda的）
+想用peda-heap：`echo "source ~/GDB-Plugins/peda-heap/peda.py" > ~/.gdbinit`（感觉这个挺好用的，扩展了heap的功能，还保留了peda的）
 
 想用gef：`echo "source ~/GDB-Plugins/gef/gef.py" > ~/.gdbinit`
 
