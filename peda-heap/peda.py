@@ -5430,7 +5430,8 @@ class PEDACmd(object):
         # display stack content, forced in case SIGSEGV
         if "stack" in opt or "SIGSEGV" in status:
             self.context_stack(count)
-        print("[%s]" % ("-"*78), "blue")
+        #print("[%s]" % ("-"*78), "blue")
+        print(blue("[%s]" % ("-"*78)))
         print("Legend: %s, %s, %s, value" % (red("code"), blue("data"), green("rodata")))
 
         # display stopped reason
